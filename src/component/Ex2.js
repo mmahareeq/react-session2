@@ -17,7 +17,7 @@ export default function Ex2() {
 
     
     return (
-        <div>
+        <div className="form">
             <p>  {name ?" user name :" +name : null}</p>
             <p> {email ?" Email :" + email : null}</p>
             <input  type="text" value={name} placeholder="enter the user name" onChange={userName}/>
