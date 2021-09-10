@@ -1,12 +1,15 @@
 import './App.css';
 import Ex from './component/Ex1';
 import Ex2 from './component/Ex2';
+import Ex3 from './component/Ex3'
 
 function App() {
   return (
     <div className="App">
       <Ex/>
       <Ex2/>
+      <hr/>
+      <Ex3/>
     </div>
   );
 }

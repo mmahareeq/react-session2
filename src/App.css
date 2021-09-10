@@ -43,6 +43,16 @@
   
   margin-bottom:20px;
 }
+
+button 
+{
+  background-color: tomato;
+  color:white;
+  border-radius:1rem;
+  border: none;
+  height:32px;
+  width: 150px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
